@@ -9,3 +9,13 @@ dependencies = []
 module-root = "src"
 
 [dependency-groups]
+dev = [
+    "bandit>=1.9.4",
+    "mypy>=1.19.1",
+    "pytest>=9.0.2",
+    "pytest-asyncio>=1.3.0",
+    "pytest-cov>=7.0.0",
+    "ruff>=0.15.5",
+    "semgrep>=1.156.0",
+    "zizmor>=1.23.1",
+]
